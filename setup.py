@@ -10,13 +10,14 @@ else:
 
 setup(
     name='tornado_testing',
-    version='0.1.0',
+    version='0.1.1',
     author='Mathias Fußenegger',
     author_email='pip@zignar.net',
     description='tornado testlayer for use with zope.testrunner',
     long_description=long_desc,
     url='https://github.com/mfussenegger/tornado-testing',
     platforms=['any'],
+    packages=['tornado_testing'],
     extras_require={
         'test': ['tornado']
     },
