@@ -51,6 +51,7 @@ class TornadoLayer:
                         started/registered when starting the tornado layer.
         """
         self.port = port or get_port_number()
+        self.uri = 'http://localhost:' + str(self.port)
         self.process = TornadoLayer.TornadoProcess(app, self.port, patches)
 
     def setUp(self):
