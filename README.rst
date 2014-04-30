@@ -2,6 +2,11 @@
 Tornado Testlayer
 =================
 
+.. image:: https://travis-ci.org/mfussenegger/tornado-testing.svg?branch=master
+        :target: https://travis-ci.org/mfussenegger/tornado-testing
+        :alt: Test
+
+
 A testlayer for Tornado that can be used with zope.testrunner
 
 
